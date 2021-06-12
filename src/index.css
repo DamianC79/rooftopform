@@ -1,0 +1,98 @@
+body {
+    background-color: #EEE;
+    background-image: linear-gradient(to right, #FFF 25deg #FFF 25deg)
+    
+}
+
+#encabezado {
+    margin: 16px 0 0;
+    display: flex;
+    
+}
+
+#encabezado .logo{
+    flex-grow: 1;
+}
+
+#encabezado .menu_items {
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.items {
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding:5px;
+}
+
+#formulario{
+    padding: 80px;
+    display:flex;
+}
+
+#formulario .info {
+    border-radius: 5px;
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+    margin: 0 0 32px;
+    max-width: 450px;
+}
+
+#formulario .form{
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+}
+
+.form{
+    position: relative;
+    margin-left: 50%;
+    display:inline-block;
+    margin-top: 10px;
+    
+}
+.name {
+    margin-bottom:10px;
+}
+
+.items:last-child{
+    border-radius: 3px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#formulario .contacto{
+    /* display: flex; */
+}
+
+#formulario .title {
+    font-size: 40px;
+}
+#formulario .text{
+    /* font-size: 16px; */
+}
+
+#formulario .card{
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    border-radius:8px;
+    padding: 0 20px;
+    max-width: 360px;
+    display:flex;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+
+/* #formulario .card-text{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+} */
+
+#fomulario .card .img{
+    margin: 0 12px 0 0;
+    padding: 4px 0 0;
+}
