@@ -1,0 +1,183 @@
+ body {
+    background-color: #EEE;
+}
+/* 
+#flex-container{
+    display: flex;
+    margin:0 4rem;
+    padding:0 2rem;
+}
+
+#encabezado {
+    margin: 16px 0 0;
+    display: flex;
+    
+}
+
+#formulario .contacto {
+    display: flex;
+}
+
+#encabezado .logo{
+    /* flex-grow: 1; */
+/* }
+
+#encabezado .menu_items {
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.items {
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding:5px;
+}
+
+#formulario{
+    padding: 80px;
+    display:flex;
+}
+
+#formulario .info {
+    border-radius: 5px;
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+    margin: 0 0 32px;
+    max-width: 450px;
+}
+
+#formulario .form{
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+    display: flex;
+}
+
+/* .form{
+    position: relative;
+    margin-left: 50%;
+    display:inline-block;
+    margin-top: 10px;
+    
+} */
+/* .name { 
+    margin-bottom:10px;
+}
+
+.items:last-child{
+    border-radius: 3px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+#formulario .title {
+    font-size: 40px;
+}
+#formulario .text{
+    /* font-size: 16px; 
+ } */
+/* 
+#formulario .card{
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    border-radius:8px;
+    padding: 0 20px;
+    max-width: 360px;
+    display:flex;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+} */
+
+/* #formulario .card-text{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+} */
+
+/* #fomulario .card .img{
+    margin: 0 12px 0 0;
+    padding: 4px 0 0;
+}  */ 
+
+
+#flex-container {
+    align-items: center;
+    /* display:flex; */
+    margin: 0 4rem;
+    padding: 0 2rem;
+}
+
+#encabezado{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#encabezado .logo{
+    flex-grow: 1;
+}
+
+#encabezado .menu{
+    /* display:flex; */
+    /* justify-content: center; */
+    flex-grow: 1;
+    
+}
+
+#encabezado .menu_items{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0 ;
+}
+
+#encabezado .items{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 16px;
+}
+.items:last-child{
+    background-color:black;
+    
+    border-radius:5px;
+}
+
+#formulario{
+    display: flex;
+    padding: 20px 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#formulario .contacto{
+    display: flex;
+}
+
+#formulario .contaco-info{
+    display: flex;
+}
+
+#formulario .card{
+    background: #FFF;
+    border-radius: 6px;
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+}
+
+#formulario .img{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+#formulario .text{
+    margin: 0;
+    padding: 0;
+}
